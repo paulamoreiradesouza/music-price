@@ -1,0 +1,351 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Global*/
+.lojista {
+	font-family: 'Montserrat', sans-serif;
+	background: #4162AB;
+	color: #FFFFFF;
+	font-size: 12px;
+	padding: 7px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.click-here {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.grid {
+	width: 1200px;
+	margin: auto;
+	position: relative;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Header*/
+
+.header {
+	margin-bottom: 250px;
+}
+
+.header-logo {
+	position: absolute;
+	top: 12px;
+	left: 0;
+}
+
+.header-nav {
+	text-align: center;
+	padding-top: 25px;
+}
+
+.header-nav li {
+	display: inline;
+	margin: 0 25px;
+	color: #696969;
+}
+
+.header-nav a {
+	text-decoration: none;
+	color: #363636;
+	font-size: 16px;
+}
+
+.header-nav a:hover {
+	color: #191970;
+	text-decoration: none;
+}
+
+.header-social {
+	position: absolute;
+	top: 25px;
+	right: 0;
+}
+
+.header-social li {
+	display: inline;
+	margin-left: 50px;
+}
+
+.header-social img {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+
+/*Main*/
+
+
+/*Call*/
+.call {
+	margin-bottom: 180px;
+	position: relative;
+}
+
+.call img {
+	width: 650px;
+	height: 548px;
+	position: absolute;
+	right: 0;
+	top: -237px;
+}
+
+.call-title {
+	width: 550px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #363636;
+	margin-bottom: 20px;
+	line-height: 1.2;
+}
+
+.call-subtitle {
+	width: 550px;
+	color: #363636;
+	margin-bottom: 30px;
+	line-height: 1.2;
+}
+
+.call-button {
+	font-family: 'Montserrat', sans-serif;
+	background: #4162AB;
+	color: #FFFFFF;
+	border: 0;
+	padding: 0 25px;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	border-radius: 25px;
+	margin-right: 15px;
+}
+
+
+/*Analytics*/
+
+.analytics-main {
+	width: 900px;
+	margin: 0 auto 100px;
+}
+
+.analytics-list {
+	display: inline-block;
+	width: 290px;
+	text-align: center;
+	margin: auto;
+}
+
+.analytics-list:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+}
+
+.analytics-list strong {
+	font-weight: bold;
+	font-size: 70px;
+	color: #4162AB;
+}
+
+/*Lojas participantes*/
+.lojas-participantes {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.lojas-participantes h4 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #363636;
+}
+
+.lojas-participantes li {
+	display: inline;
+	margin: 0 25px;
+}
+
+
+/*Depoimentos*/
+.depoimentos-grid:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+}
+
+.depoimentos-grid {
+	background: url(img/bg-depoimentos.png);
+	border-radius: 25px;
+}
+
+.depoimentos {
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.depoimentos h4 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #363636;
+	margin-bottom: 30px;
+}
+
+.depoimento-conteudo {
+	float: left;
+	width: 400px;
+	box-sizing: border-box;
+	padding: 45px;
+	text-align: center;
+}
+
+.depoimento-conteudo img {
+	border: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	border-radius: 35px;
+	margin-bottom: 10px;
+}
+
+.depoimento-conteudo h1 {
+	font-weight: bold;
+	color: #FFFFFF;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.depoimento-conteudo h2 {
+	font-size: 11px;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+
+.rate {
+	margin-bottom: 10px;
+}
+
+.depoimento-conteudo p {
+	font-style: italic;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+
+/*Delivery*/
+.delivery {
+	margin-bottom: 500px;
+	position: relative;
+	text-align: center;
+}
+
+.delivery img {
+	width: 430px;
+	height: 315px;
+	position: absolute;
+	display: block;
+	left: 130px;
+}
+
+.delivery h1 {
+	position: absolute;
+	width: 350px;
+	text-align: left;
+	top: 44px;
+	right: 245px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #363636;
+	margin-bottom: 20px;
+	line-height: 1.2;
+}
+
+.delivery p {
+	position: absolute;
+	display: block;
+	width: 550px;
+	text-align: left;
+	right: 46px;
+	top: 181px;
+	color: #363636;
+	line-height: 1.2;
+}
+
+/*Footer*/
+
+.footer {
+	background: #4162AB;
+	padding: 25px;
+}
+
+.logo-footer {
+	display: inline-block;
+	margin-left: 550px;
+}
+
+.footer-content h1 {
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.footer-content p {
+	color: #FFFFFF;
+	font-size: 10px;
+	text-align: center;
+}
